@@ -3,6 +3,7 @@
 [Itamae](https://github.com/itamae-kitchen/itamae) plugin to install redis.
 
 ## Forked for temporarily gem
+
 https://github.com/leonis/itamae-plugin-recipe-redis/issues/1
 
 ## Installation
@@ -10,7 +11,7 @@ https://github.com/leonis/itamae-plugin-recipe-redis/issues/1
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'itamae-plugin-recipe-redis'
+gem 'itamae-plugin-recipe-kzyty_redis'
 ```
 
 And then execute:
@@ -19,7 +20,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install itamae-plugin-recipe-redis
+    $ gem install itamae-plugin-recipe-kzyty_redis
 
 ## Usage
 
@@ -78,7 +79,5 @@ NOTE: `enable` recipe depend on `package` recipe.
 5. Create a new Pull Request
 
 # License
-
-Copyright 2015 Leonis & Co.
 
 MIT License
