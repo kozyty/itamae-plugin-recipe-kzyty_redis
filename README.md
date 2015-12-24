@@ -2,6 +2,9 @@
 
 [Itamae](https://github.com/itamae-kitchen/itamae) plugin to install redis.
 
+## Forked for temporarily gem
+https://github.com/leonis/itamae-plugin-recipe-redis/issues/1
+
 ## Installation
 
 Add this line to your application's Gemfile:
