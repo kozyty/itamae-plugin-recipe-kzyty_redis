@@ -1,9 +1,9 @@
-require "itamae/plugin/recipe/redis/version"
+require "itamae/plugin/recipe/kzyty_redis/version"
 
 module Itamae
   module Plugin
     module Recipe
-      module Redis
+      module KzytyRedis
         # Your code goes here...
       end
     end

@@ -1,4 +1,4 @@
-# Itamae::Plugin::Recipe::Redis
+# Itamae::Plugin::Recipe::KzytyRedis
 
 [Itamae](https://github.com/itamae-kitchen/itamae) plugin to install redis.
 
@@ -32,7 +32,7 @@ Install redis package.
 
 ```
 # your recipe
-include_recipe 'redis::package'
+include_recipe 'kzyty_redis::package'
 ```
 
 #### config recipe
@@ -41,8 +41,8 @@ Configure redis.
 
 ```
 # your recipe
-include_recipe 'redis::package'
-include_recipe 'redis::config'
+include_recipe 'kzyty_redis::package'
+include_recipe 'kzyty_redis::config'
 ```
 
 NOTE: `config` recipe depend on `package` recipe.
@@ -50,13 +50,13 @@ NOTE: `config` recipe depend on `package` recipe.
 ##### Node
 
 ```
-redis:
+kzyty_redis:
   port: 6379
 ```
 
 | name | description |
 |:-----|:------------|
-| redis.port | port number of redis |
+| kzyty_redis.port | port number of redis |
 
 #### enable recipe
 
@@ -64,15 +64,15 @@ Enable redis service.
 
 ```
 # your recipe
-include_recipe 'redis::package'
-include_recipe 'redis::enable'
+include_recipe 'kzyty_redis::package'
+include_recipe 'kzyty_redis::enable'
 ```
 
 NOTE: `enable` recipe depend on `package` recipe.
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/itamae-plugin-recipe-redis/fork )
+1. Fork it ( https://github.com/[my-github-username]/itamae-plugin-recipe-kzyty_redis/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)

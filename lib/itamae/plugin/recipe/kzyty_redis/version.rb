@@ -1,8 +1,8 @@
 module Itamae
   module Plugin
     module Recipe
-      module Redis
-        VERSION = "0.1.0"
+      module KzytyRedis
+        VERSION = "3.0.6"
       end
     end
   end

@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'itamae/plugin/recipe/redis/version'
+require 'itamae/plugin/recipe/kzyty_redis/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'itamae-plugin-recipe-kzyty_redis'
-  spec.version       = Itamae::Plugin::Recipe::Redis::VERSION
+  spec.version       = Itamae::Plugin::Recipe::KzytyRedis::VERSION
   spec.authors       = ['Taiyo Kojima']
   spec.email         = ['kozyty@gmail.com']
   spec.licenses      = ['MIT']
@@ -20,5 +20,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency 'bundler', '~> 1.9'
   spec.add_development_dependency 'rake', '~> 10.0'
-  spec.add_runtime_dependency 'itamae', '~> 1.2'
+  spec.add_runtime_dependency 'itamae', '~> 1.3'
 end

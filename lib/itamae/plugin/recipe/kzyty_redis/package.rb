@@ -1,8 +1,8 @@
 # Install redis by package.
 
 redis_version = \
-  if !node[:redis].nil? && !node[:redis][:version].nil?
-    node[:redis][:version]
+  if !node[:kzyty_redis].nil? && !node[:kzyty_redis][:version].nil?
+    node[:kzyty_redis][:version]
   else
     nil
   end
